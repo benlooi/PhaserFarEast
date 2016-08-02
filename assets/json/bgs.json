@@ -1,0 +1,59 @@
+{"backgrounds":[
+ {    
+            "type": "image",
+            "key": "background1",
+            "url": "assets/images/backgrounds/background1.jpg",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "background2",
+            "url": "assets/images/backgrounds/background2.jpeg",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "background3",
+            "url": "assets/images/backgrounds/background3.png",
+            "overwrite": false
+        }
+
+],
+"plants":[
+ {    
+            "type": "image",
+            "key": "plant1",
+            "url": "assets/images/plants/plant1.png",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "plant2",
+            "url": "assets/images/plants/plant2.png",
+            "overwrite": false
+        }
+
+],
+"pots":[
+ {    
+            "type": "image",
+            "key": "pot5",
+            "url": "assets/images/pots/pot5.png",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "pot6",
+            "url": "assets/images/pots/pot6.png",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "pot8",
+            "url": "assets/images/pots/pot8.png",
+            "overwrite": false
+        }
+
+]
+
+}
