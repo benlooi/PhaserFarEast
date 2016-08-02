@@ -18,6 +18,17 @@ var Preload = {
 
 	game.cache.addBitmapData('circ_button',circle_button);
 
+//create sidebar subsection backing
+	var sidebar_backing=game.add.bitmapData(200,200);
+	sidebar_backing.ctx.beginPath();
+	sidebar_backing.ctx.globalAlpha = 0.4;
+	//canvas draw arc method (centreX,centreY,radius, startAngle,EndAngle)
+	sidebar_backing.ctx.rect(0,0,200,200);
+	sidebar_backing.ctx.fillStyle="#ffffff";
+	sidebar_backing.ctx.fill();
+
+	game.cache.addBitmapData('sidebar_backing',sidebar_backing);
+
 
 	},
 	create: function () {

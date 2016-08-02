@@ -52,6 +52,24 @@
             "key": "pot8",
             "url": "assets/images/pots/pot8.png",
             "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "pot1",
+            "url": "assets/images/pots/pot5.png",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "pot2",
+            "url": "assets/images/pots/pot6.png",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "pot3",
+            "url": "assets/images/pots/pot8.png",
+            "overwrite": false
         }
 
 ]
