@@ -17,6 +17,15 @@ var Preload = {
 	circle_button.ctx.fill();
 
 	game.cache.addBitmapData('circ_button',circle_button);
+//backing for selection menu
+var rect_backing=game.add.bitmapData(250,200);
+rect_backing.ctx.beginPath();
+rect_backing.ctx.globalAlpha=0.8;
+rect_backing.ctx.rect(0,0,250,200);
+rect_backing.ctx.fillStyle="#eeeeee";
+rect_backing.ctx.fill();
+
+game.cache.addBitmapData('rect_backing',rect_backing);
 
 //create sidebar subsection backing
 	var sidebar_backing=game.add.bitmapData(200,200);

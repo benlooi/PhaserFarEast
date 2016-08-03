@@ -24,13 +24,22 @@
             "type": "image",
             "key": "plant1",
             "url": "assets/images/plants/plant1.png",
-            "overwrite": false
+            "overwrite": false,
+            "anchor":0.1
         },
         {    
             "type": "image",
             "key": "plant2",
             "url": "assets/images/plants/plant2.png",
-            "overwrite": false
+            "overwrite": false,
+              "anchor":0.1
+        },
+        {    
+            "type": "image",
+            "key": "plant4",
+            "url": "assets/images/plants/plant4.png",
+            "overwrite": false,
+              "anchor":0.3
         }
 
 ],
@@ -38,7 +47,7 @@
  {    
             "type": "image",
             "key": "pot5",
-            "url": "assets/images/pots/pot5.png",
+            "url": "assets/images/pots/pot6.png",
             "overwrite": false
         },
         {    
@@ -53,10 +62,10 @@
             "url": "assets/images/pots/pot8.png",
             "overwrite": false
         },
-        {    
+{    
             "type": "image",
             "key": "pot1",
-            "url": "assets/images/pots/pot5.png",
+            "url": "assets/images/pots/pot6.png",
             "overwrite": false
         },
         {    
@@ -68,6 +77,12 @@
         {    
             "type": "image",
             "key": "pot3",
+            "url": "assets/images/pots/pot8.png",
+            "overwrite": false
+        },
+        {    
+            "type": "image",
+            "key": "pot4",
             "url": "assets/images/pots/pot8.png",
             "overwrite": false
         }
