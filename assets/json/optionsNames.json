@@ -1,14 +1,14 @@
 [
 {
-	"stateName":"Fengshui"
+	"stateName":"fengshui"
 
 },
 {
-	"stateName":"Home"
+	"stateName":"home"
 
 },
 {
-	"stateName":"Office"
+	"stateName":"office"
 
 }
 ]

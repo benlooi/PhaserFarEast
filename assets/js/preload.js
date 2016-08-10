@@ -39,7 +39,14 @@ rect_backing.ctx.fillStyle="#eeeeee";
 rect_backing.ctx.fill();
 
 game.cache.addBitmapData('rect_backing',rect_backing);
+//fadescreen mask
+var fadescreen=game.add.bitmapData(800,600);
+fadescreen.ctx.beginPath();
 
+fadescreen.ctx.rect(0,0,800,600);
+fadescreen.ctx.fillStyle="#000000";
+fadescreen.ctx.fill();
+game.cache.addBitmapData('fadescreen',fadescreen);
 //create sidebar subsection backing
 	var sidebar_backing=game.add.bitmapData(200,200);
 	sidebar_backing.ctx.beginPath();
@@ -51,7 +58,7 @@ game.cache.addBitmapData('rect_backing',rect_backing);
 
 	game.cache.addBitmapData('sidebar_backing',sidebar_backing);
 
-
+	game.load.image("fengshui_background",'assets/images/backgrounds/fengshui_background.jpg');
 	},
 	create: function () {
 		game.state.start('splash');
