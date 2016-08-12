@@ -22,24 +22,27 @@
 "plants":[
  {    
             "type": "image",
-            "key": "plant1",
+            "key": "Money Plant",
             "url": "assets/images/plants/plant1.png",
             "overwrite": false,
-            "anchor":0.1
+            "anchor":0.1,
+            "description":"The Money Plant also known as \nPhilodendron scandens is symbolic \nof great abundance and \nis a very common indoor \nfeng shui tree with \nleaves that have the shape \nof a round heart. \nIt can grow in dark corners \nand has benefits of \nair purification. \nIt is usually planted in \nlow-moderate water conditions. \nKeep the soil moisturized \nbut make sure it does not dry \ncompletely in between the \nsessions of watering \nso that the leaves do not \nturn yellow."
         },
         {    
             "type": "image",
-            "key": "plant2",
+            "key": "Chrysamthemum",
             "url": "assets/images/plants/plant2.png",
             "overwrite": false,
-              "anchor":0.1
+              "anchor":0.1,
+              "description":"The chrysanthemum plant is \nan attractive yellow \nflower and is among the \nbest feng shui plants. \nIt is highly valued in \nboth the Japanese \nand Chinese cultures. \nThe yellow color symbolizes \noptimism and happiness. \nThe most suitable location is \ninside the living room although not \nin the bedroom where it could skirmish \nwith other feng shui elements."
         },
         {    
             "type": "image",
-            "key": "plant4",
+            "key": "Lotus",
             "url": "assets/images/plants/plant4.png",
             "overwrite": false,
-              "anchor":0.3
+              "anchor":0.3,
+              "description":"The lotus flower symbolizes purity, \nmoral strength and exclusiveness. \nIt is usually placed at \nthe residential area particularly \nat the entrance. \nThis enhances positive \nchi in the house. It is linked \nwith Buddha and is deemed to \noffer enlightenment and knowledge \nwhere it is located. It can increase \nspirituality also."
         }
 
 ],
@@ -48,43 +51,51 @@
             "type": "image",
             "key": "pot5",
             "url": "assets/images/pots/pot6.png",
-            "overwrite": false
+            "overwrite": false,
+            "description":"Suitable for small plants."
+        
         },
         {    
             "type": "image",
             "key": "pot6",
             "url": "assets/images/pots/pot6.png",
-            "overwrite": false
+            "overwrite": false,
+             "description":"Suitable for small plants."
         },
         {    
             "type": "image",
             "key": "pot8",
             "url": "assets/images/pots/pot8.png",
-            "overwrite": false
+            "overwrite": false,
+             "description":"Suitable for small plants."
         },
 {    
             "type": "image",
             "key": "pot1",
             "url": "assets/images/pots/pot6.png",
-            "overwrite": false
+            "overwrite": false,
+             "description":"Suitable for small plants."
         },
         {    
             "type": "image",
             "key": "pot2",
             "url": "assets/images/pots/pot6.png",
-            "overwrite": false
+            "overwrite": false,
+             "description":"Suitable for small plants."
         },
         {    
             "type": "image",
             "key": "pot3",
             "url": "assets/images/pots/pot8.png",
-            "overwrite": false
+            "overwrite": false,
+             "description":"Suitable for small plants."
         },
         {    
             "type": "image",
             "key": "pot4",
             "url": "assets/images/pots/pot8.png",
-            "overwrite": false
+            "overwrite": false,
+             "description":"Suitable for small plants."
         }
 
 ]

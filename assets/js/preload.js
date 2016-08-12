@@ -59,6 +59,9 @@ game.cache.addBitmapData('fadescreen',fadescreen);
 	game.cache.addBitmapData('sidebar_backing',sidebar_backing);
 
 	game.load.image("fengshui_background",'assets/images/backgrounds/fengshui_background.jpg');
+	game.load.spritesheet('fengshui_icons','assets/images/fengshui_icons.png',100,100,8)
+	game.load.spritesheet('utility_icons','assets/images/utility_icons_1.png',100,100,8)
+
 	},
 	create: function () {
 		game.state.start('splash');

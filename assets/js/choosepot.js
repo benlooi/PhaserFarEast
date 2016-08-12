@@ -10,6 +10,8 @@ var pot_btn;
 var ChoosePot = {
 	
 	create: function () {
+		//game.add.tween(fader).to({alpha:0.1},1000,"Linear",true,0).onComplete.AddOnce(function () {
+
 		var defer=$.Deferred();
 
 		$.getJSON("assets/json/bgs.json",function(data){
@@ -21,23 +23,9 @@ var ChoosePot = {
 			pot.scale.setTo(0.8);
 			plant=game.add.sprite(300,200,bgs.plants[0].key);
 			plant.anchor.setTo(0.5,0.1);
-			plant.scale.setTo(0.5);
-
-		/*	bg_button_base=game.add.sprite(500,100,game.cache.getBitmapData('circ_button'));
-			bg_button_base.inputEnabled=true;
-			bg_button_base.input.useHandCursor=true;
-			bg_button_base.events.onInputDown.add(changeBackground,this);
-
-			pot_button_base=game.add.sprite(500,150,game.cache.getBitmapData('circ_button'));
-			pot_button_base.inputEnabled=true;
-			pot_button_base.input.useHandCursor=true;
-			pot_button_base.events.onInputDown.add(changePot,this);
-
-			plant_button_base=game.add.sprite(500,200,game.cache.getBitmapData('circ_button'));
-			plant_button_base.inputEnabled=true;
-			plant_button_base.input.useHandCursor=true;
-			plant_button_base.events.onInputDown.add(changePlant,this);
-*/
+			plant.scale.setTo(0.7);
+			plant_description=game.add.text(20,200,bgs.plants[0].description,{font:"12px Muli",fill:"#E8E1EA"})
+		
 			var pot_selection_panel=game.add.sprite(550,0,game.cache.getBitmapData('rect_backing'));
 			var plant_selection_panel=game.add.sprite(550,200,game.cache.getBitmapData('rect_backing'));
 			var bg_selection_panel=game.add.sprite(550,400,game.cache.getBitmapData('rect_backing'));
@@ -46,6 +34,8 @@ var ChoosePot = {
 			game.add.text(560,210,"Select Plant",{font:"20px Arial",fill:"teal"});
 			game.add.text(560,410,"Select Background",{font:"20px Arial",fill:"teal"});
 
+			var back_btn=game.add.sprite(10,10,"utility_icons",2);
+			var home_btn=game.add.sprite(700,10,"utility_icons",0);
 			//draw buttons for choices
 			//pots
 			start_count=0;
@@ -160,6 +150,7 @@ function changePot (thispot) {
 	});
 	potindex=potz.indexOf(thispot.keyvalue);
 	pot.loadTexture(bgs.pots[potindex].key);
+
 	console.log(thispot.keyvalue);
 
 }
@@ -170,6 +161,7 @@ var plantz=bgs.plants.map(function(plantkey){
 	plantindex=plantz.indexOf(thisplant.keyvalue);
 	plant.anchor.setTo(0.5,bgs.plants[plantindex].anchor)
 	plant.loadTexture(bgs.plants[plantindex].key);
+	plant_description.text=bgs.plants[plantindex].description;
 
 }
 
