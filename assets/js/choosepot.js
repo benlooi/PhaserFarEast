@@ -35,6 +35,8 @@ var ChoosePot = {
 			game.add.text(560,410,"Select Background",{font:"20px Arial",fill:"teal"});
 
 			var back_btn=game.add.sprite(10,10,"utility_icons",2);
+			back_btn.inputEnabled=true;
+			back_btn.events.onInputDown.add(goToState,this);
 			var home_btn=game.add.sprite(700,10,"utility_icons",0);
 			//draw buttons for choices
 			//pots

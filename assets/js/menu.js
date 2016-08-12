@@ -77,3 +77,8 @@ function goToState(){
 	console.log(thisState);
 game.state.start(thisState);
 }
+
+function goToMenu(){
+	console.log(thisState);
+game.state.start("menu");
+}

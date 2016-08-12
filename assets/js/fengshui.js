@@ -24,6 +24,14 @@ Fengshui = {
 		console.log("Fengshui state");
 		var bg=game.add.sprite(0,0,"fengshui_background");
 		bg.alpha=0.4;
+
+		//add nav controls
+		var back_btn=game.add.sprite(10,10,"utility_icons",2);
+			back_btn.inputEnabled=true;
+			back_btn.events.onInputDown.add(goToMenu,this);
+			var home_btn=game.add.sprite(700,10,"utility_icons",0);
+
+		//add state cta	
 		game.add.text(200,100,"Feng Shui Plants",{font:"40px Muli",fill:"#FFF6FF"});
 		game.add.text(200,200,"Select a category",{font:"30px Muli",fill:"#FFF6FF"});
 		
