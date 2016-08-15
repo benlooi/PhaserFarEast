@@ -31,10 +31,19 @@ game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfo
 
 	game.cache.addBitmapData('circ_button',circle_button);
 //backing for selection menu
-var rect_backing=game.add.bitmapData(250,200);
+var rect_long_backing=game.add.bitmapData(350,600);
+rect_long_backing.ctx.beginPath();
+rect_long_backing.ctx.globalAlpha=0.7;
+rect_long_backing.ctx.rect(0,0,350,600);
+rect_long_backing.ctx.fillStyle="#141417";
+rect_long_backing.ctx.fill();
+
+game.cache.addBitmapData('rect_long_backing',rect_long_backing);
+
+var rect_backing=game.add.bitmapData(350,200);
 rect_backing.ctx.beginPath();
-rect_backing.ctx.globalAlpha=0.8;
-rect_backing.ctx.rect(0,0,250,200);
+rect_backing.ctx.globalAlpha=1;
+rect_backing.ctx.rect(0,0,350,200);
 rect_backing.ctx.fillStyle="#eeeeee";
 rect_backing.ctx.fill();
 
