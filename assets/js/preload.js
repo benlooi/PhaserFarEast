@@ -7,7 +7,7 @@ WebFontConfig = {
 
     //  The Google Fonts we want to load (specify as many as you like in the array)
     google: {
-      families: ['Muli']
+      families: ['Muli','Tangerine']
     }
 
 };
@@ -30,6 +30,19 @@ game.load.script('webfont', '//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfo
 	circle_button.ctx.fill();
 
 	game.cache.addBitmapData('circ_button',circle_button);
+//bottom selection panel
+var bottom_panel=game.add.bitmapData(1200,300);
+bottom_panel.ctx.beginPath();
+bottom_panel.ctx.moveTo(0,0);
+bottom_panel.ctx.bezierCurveTo(200,50,1000,50,1200,0);
+bottom_panel.ctx.lineTo(1200,300);
+bottom_panel.ctx.lineTo(0,300);
+bottom_panel.ctx.lineTo(0,0);
+
+bottom_panel.ctx.fillStyle="#BB9D67";
+bottom_panel.ctx.fill();
+
+game.cache.addBitmapData('bottom_panel',bottom_panel);
 //backing for selection menu
 var rect_long_backing=game.add.bitmapData(350,600);
 rect_long_backing.ctx.beginPath();

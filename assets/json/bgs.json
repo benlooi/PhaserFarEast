@@ -44,7 +44,7 @@
             "url": "assets/images/plants/moneyplant.png",
             "overwrite": false,
             "anchor":0.1,
-            "description":"The Money Plant also known as Philodendron scandens is symbolic of great abundance and is a very common indoor feng shui tree with leaves that have the shape of a round heart. It can grow in dark corners and has benefits of air purification. It is usually planted in low-moderate water conditions. Keep the soil moisturized but make sure it does not dry completely in between the sessions of watering so that the leaves do not turn yellow."
+            "description":"The Money Plant also known as Philodendron scandens is symbolic of great abundance and is a very common indoor feng shui tree with leaves that have the shape of a round heart. "
         },
         {    
             "type": "image",
@@ -52,7 +52,7 @@
             "url": "assets/images/plants/chrysanthemum.png",
             "overwrite": false,
               "anchor":0.3,
-              "description":"The chrysanthemum plant is an attractive yellow flower and is among the best feng shui plants. It is highly valued in both the Japanese and Chinese cultures. The yellow color symbolizes optimism and happiness. The most suitable location is inside the living room although not in the bedroom where it could skirmish with other feng shui elements."
+              "description":"The chrysanthemum plant is an attractive flower and is among the best feng shui plants. It is highly valued in both the Japanese and Chinese cultures. "
         },
         {    
             "type": "image",
@@ -60,15 +60,15 @@
             "url": "assets/images/plants/plant4.png",
             "overwrite": false,
               "anchor":0.3,
-              "description":"The lotus flower symbolizes purity, \nmoral strength and exclusiveness. \nIt is usually placed at \nthe residential area particularly \nat the entrance. \nThis enhances positive \nchi in the house. It is linked \nwith Buddha and is deemed to \noffer enlightenment and knowledge \nwhere it is located. It can increase \nspirituality also."
+              "description":"The lotus flower symbolizes purity, moral strength and exclusiveness. "
         },
         {    
             "type": "image",
             "key": "Bamboo",
             "url": "assets/images/plants/bamboo.png",
             "overwrite": false,
-              "anchor":0.65,
-              "description":"The feng shui bamboo plant is known as \nlucky bamboo due to its good luck qualities.\nAccording to feng shui, the lucky bamboo brings prosperity\nand fortune to those who keep it and to the environment in\nwhich it is. This makes it ideal for a business or for a \nhouse spot. The lucky bamboo only needs to have new \nwater twice a week and doesn't need sunlight or any other \nrequirements to survive and be healthy. It is a strong plant, \nwhich could live for many years by just having its water replaced.\nAccording to feng shui, the lucky bamboo plant not only \nattracts good luck but is also good for attracting qi to any \nspecific spot where it does not flow.And if you place it where \nqi does circulate, it would help you keeps it flowing freely\nand permanently through the whole environment surrounding it.\nDue to this qi attraction, it has also energizing qualities\nwhich make it ideal for being placed near a person whose \nhealth needs to be improved.Place it in the south east \ncorner of your living room or office to attract wealth \nopportunities. Place it in East direction to have a good health."
+              "anchor":0.55,
+              "description":"The feng shui bamboo plant is known as lucky bamboo due to its good luck qualities."
         }
 
 ],
@@ -78,7 +78,10 @@
             "key": "Porcelain 1",
             "url": "assets/images/pots/porcelain1.png",
             "overwrite": false,
-            "description":"Suitable for small plants."
+            "description":"Mountains of Peace",
+            "dimensions":"15cm x 15cm, Diameter:15cm",
+            "material":"Porcelain",
+            "color":"White with blue artwork"
         
         },
         {    
@@ -86,42 +89,60 @@
             "key": "pot6",
             "url": "assets/images/pots/porcelain2.png",
             "overwrite": false,
-             "description":"Suitable for small plants."
+             "description":"Summer Blossoms",
+             "dimensions":"16cm x 16cm,Hexagon",
+            "material":"Porcelain",
+            "color":"White with blue artwork"
         },
         {    
             "type": "image",
             "key": "pot8",
             "url": "assets/images/pots/porcelain3.png",
             "overwrite": false,
-             "description":"Suitable for small plants."
+             "description":"Paranakan Phoenix",
+             "dimensions":"20cm x 20cm, Diameter:20cm",
+            "material":"Porcelain",
+            "color":"White with various colors"
         },
 {    
             "type": "image",
             "key": "pot1",
             "url": "assets/images/pots/pot6.png",
             "overwrite": false,
-             "description":"Suitable for small plants."
+             "description":"TerraCota",
+             "dimensions":"15cm x 15cm, Diameter:15cm",
+            "material":"Clay",
+            "color":"Natural clay"
         },
         {    
             "type": "image",
             "key": "pot2",
             "url": "assets/images/pots/pot6.png",
             "overwrite": false,
-             "description":"Suitable for small plants."
+            "description":"TerraCota",
+             "dimensions":"15cm x 15cm, Diameter:15cm",
+            "material":"Clay",
+            "color":"Natural clay"
         },
         {    
             "type": "image",
             "key": "pot3",
             "url": "assets/images/pots/pot8.png",
             "overwrite": false,
-             "description":"Suitable for small plants."
+             "description":"Teal Appeal",
+             "dimensions":"15cm x 15cm, Diameter:15cm",
+            "material":"Clay",
+            "color":"Teal"
         },
         {    
             "type": "image",
             "key": "pot4",
             "url": "assets/images/pots/pot8.png",
             "overwrite": false,
-             "description":"Suitable for small plants."
+             "description":"Turquoise Haven",
+             "dimensions":"14.5cm x 14.5cm, Diameter:14.5cm",
+            "material":"Clay",
+            "color":"Turquoise"
         }
 
 ]

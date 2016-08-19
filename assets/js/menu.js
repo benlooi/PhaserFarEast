@@ -27,7 +27,7 @@ var Menu = {
 		choice.events.onInputDown.add(selectChoice,this);
 		
 		}
-		game.add.text(20,400,"Fengshui",{font:"300 32px Muli",fill:"white"});
+		game.add.text(20,400,"Fengshui",{font:"32px Muli",fill:"white"});
 		game.add.text(220,400,"Home",{font:"32px Muli",fill:"white"});
 		game.add.text(420,400,"Office",{font:"32px Muli",fill:"white"});
 		start_item=0;

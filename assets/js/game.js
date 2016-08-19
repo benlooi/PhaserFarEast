@@ -1,4 +1,4 @@
-var game=new Phaser.Game(800,600,Phaser.AUTO,'');
+var game=new Phaser.Game(1200,800,Phaser.AUTO,'');
 
 game.state.add('preload',Preload);
 game.state.add('splash',Splash);
