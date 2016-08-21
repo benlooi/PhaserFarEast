@@ -4,6 +4,7 @@ var theseOptions;
 var fader;
 var thisState;
 var start_item;
+var homePlants,officePlants;
 var Menu = {
 
 	create: function () {
@@ -14,9 +15,9 @@ var Menu = {
 			theseOptions=data;
 		
 		//festive,fengshui,home,office,
-		for (var x=0;x<3;x++){
+		/*for (var x=0;x<2;x++){
 
-			var choice=choices.create(x*200+10,300,game.cache.getBitmapData('sidebar_backing'));
+			var choice=choices.create(x*200+210,300,game.cache.getBitmapData('sidebar_backing'));
 			choice.scale.setTo(0.8,1);
 			choice.alpha=0;
 			choice.inputEnabled=true;
@@ -26,12 +27,31 @@ var Menu = {
 		choice.events.onInputOut.add(dehighlightChoice,this);
 		choice.events.onInputDown.add(selectChoice,this);
 		
-		}
-		game.add.text(20,400,"Fengshui",{font:"32px Muli",fill:"white"});
-		game.add.text(220,400,"Home",{font:"32px Muli",fill:"white"});
-		game.add.text(420,400,"Office",{font:"32px Muli",fill:"white"});
-		start_item=0;
-		game.add.tween(choices.children[start_item]).to({alpha:1},500,"Linear",true,250).onStart.addOnce(showChoice,this);
+		}*/
+		//game.add.text(20,400,"Fengshui",{font:"32px Muli",fill:"white"});
+		choice=game.add.sprite(200,100,"home_plant");
+		choice.scale.setTo(0.6);
+		choice.state="fengshui";
+		choice.inputEnabled=true;
+		choice.input.useHandCursor=true;
+		//choice.events.onInputOver.add(highlightChoice,this);
+		//choice.events.onInputOut.add(dehighlightChoice,this);
+		choice.events.onInputDown.add(selectChoice,this);
+
+		choice=game.add.sprite(650,100,"office_plant");
+		choice.scale.setTo(0.6);
+		choice.state="fengshui";
+		choice.inputEnabled=true;
+		choice.input.useHandCursor=true;
+		//choice.events.onInputOver.add(highlightChoice,this);
+		//choice.events.onInputOut.add(dehighlightChoice,this);
+		choice.events.onInputDown.add(selectChoice,this);
+		hometext=game.add.text(210,610,"Fengshui Home Plants",{font:"32px Muli",fill:"white",wordWrap:"true",wordWrapWidth:600});
+		hometext.setShadow(5, 5, 'rgba(0,0,0,0.5)', 15);
+		officetext=game.add.text(660,610,"Fengshui Office Plants",{font:"32px Muli",fill:"white",wordWrap:"true",wordWrapWidth:600});
+		officetext.setShadow(5, 5, 'rgba(0,0,0,0.5)', 15);
+		//start_item=0;
+		//game.add.tween(choices.children[start_item]).to({alpha:1},500,"Linear",true,250).onStart.addOnce(showChoice,this);
 		
 
 fader=game.add.sprite(0,0,game.cache.getBitmapData('fadescreen'));

@@ -2,37 +2,31 @@
  {    
             "type": "image",
             "key": "background1",
-            "url": "assets/images/backgrounds/background1.jpg",
+            "url": "assets/images/backgrounds/espresso.jpg",
             "overwrite": false
         },
         {    
             "type": "image",
             "key": "background2",
-            "url": "assets/images/backgrounds/background2.jpg",
+            "url": "assets/images/backgrounds/flowers.jpg",
             "overwrite": false
         },
         {    
             "type": "image",
             "key": "background3",
-            "url": "assets/images/backgrounds/background3.jpg",
+            "url": "assets/images/backgrounds/key.jpg",
             "overwrite": false
         },
         {    
             "type": "image",
             "key": "background4",
-            "url": "assets/images/backgrounds/background4.jpg",
+            "url": "assets/images/backgrounds/living-room.jpg",
             "overwrite": false
         },
         {    
             "type": "image",
-            "key": "background5",
-            "url": "assets/images/backgrounds/background5.jpg",
-            "overwrite": false
-        },
-        {    
-            "type": "image",
-            "key": "background6",
-            "url": "assets/images/backgrounds/background6.jpg",
+            "key": "background7",
+            "url": "assets/images/backgrounds/background_woodgrain_wall.jpg",
             "overwrite": false
         }
 
@@ -43,7 +37,8 @@
             "key": "Money Plant",
             "url": "assets/images/plants/moneyplant.png",
             "overwrite": false,
-            "anchor":0.1,
+            "anchor":-0.05,
+            "scale":0.6,
             "description":"The Money Plant also known as Philodendron scandens is symbolic of great abundance and is a very common indoor feng shui tree with leaves that have the shape of a round heart. "
         },
         {    
@@ -51,7 +46,8 @@
             "key": "Chrysanthemum",
             "url": "assets/images/plants/chrysanthemum.png",
             "overwrite": false,
-              "anchor":0.3,
+              "anchor":0.2,
+              "scale":0.6,
               "description":"The chrysanthemum plant is an attractive flower and is among the best feng shui plants. It is highly valued in both the Japanese and Chinese cultures. "
         },
         {    
@@ -59,7 +55,8 @@
             "key": "Lotus",
             "url": "assets/images/plants/plant4.png",
             "overwrite": false,
-              "anchor":0.3,
+              "anchor":0.25,
+              "scale":0.6,
               "description":"The lotus flower symbolizes purity, moral strength and exclusiveness. "
         },
         {    
@@ -67,8 +64,18 @@
             "key": "Bamboo",
             "url": "assets/images/plants/bamboo.png",
             "overwrite": false,
-              "anchor":0.55,
+              "anchor":0.45,
+              "scale":0.55,
               "description":"The feng shui bamboo plant is known as lucky bamboo due to its good luck qualities."
+        },
+        {    
+            "type": "image",
+            "key": "Money Tree Plant",
+            "url": "assets/images/plants/jade_plant.png",
+            "overwrite": false,
+              "anchor":0.3,
+              "scale":0.6,
+              "description":"The money tree reflects vibrant, well-rooted energy. The money tree plant is supposed to produce positive vibrations that will bring prosperity to the owner of the house or business. "
         }
 
 ],
@@ -107,7 +114,7 @@
 {    
             "type": "image",
             "key": "pot1",
-            "url": "assets/images/pots/pot6.png",
+            "url": "assets/images/pots/pot1.png",
             "overwrite": false,
              "description":"TerraCota",
              "dimensions":"15cm x 15cm, Diameter:15cm",
@@ -137,7 +144,7 @@
         {    
             "type": "image",
             "key": "pot4",
-            "url": "assets/images/pots/pot8.png",
+            "url": "assets/images/pots/pot2.png",
             "overwrite": false,
              "description":"Turquoise Haven",
              "dimensions":"14.5cm x 14.5cm, Diameter:14.5cm",

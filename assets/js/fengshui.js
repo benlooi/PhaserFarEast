@@ -29,11 +29,11 @@ Fengshui = {
 		var back_btn=game.add.sprite(10,10,"utility_icons",2);
 			back_btn.inputEnabled=true;
 			back_btn.events.onInputDown.add(goToMenu,this);
-			var home_btn=game.add.sprite(700,10,"utility_icons",0);
+			//var home_btn=game.add.sprite(700,10,"utility_icons",0);
 
 		//add state cta	
-		game.add.text(200,100,"Feng Shui Plants",{font:"40px Muli",fill:"#FFF6FF"});
-		game.add.text(200,200,"Select a category",{font:"30px Muli",fill:"#FFF6FF"});
+		game.add.text(400,200,"Feng Shui Plants",{font:"40px Muli",fill:"#FFF6FF"});
+		game.add.text(400,300,"Select a category",{font:"30px Muli",fill:"#FFF6FF"});
 		
 		//game.add.text(250,300,"&#xf21e ",{font:"30px fontAwesome",fill:"#C7B691"});
 		
@@ -45,12 +45,12 @@ Fengshui = {
 		*/
 		var icons=game.add.group();
 		for (var i=4;i<8;i++){
-			icon=icons.create(200+100*(i-4),250,"fengshui_icons",i);
+			icon=icons.create(400+120*(i-4),350,"fengshui_icons",i);
 			icon.index=i-4;
 			icon.cat_name=fs_choice_info[i-4].cat;
 			icon.description=fs_choice_info[i-4].description;
-			cat_text=game.add.text(200,400,icon.cat_name,{font:"32px Muli",fill:"#F3DDB7"});
-			cat_desc=game.add.text(200,450,icon.description,{font:"24px Muli",fill:"#F3E2EE"});
+			cat_text=game.add.text(400,500,icon.cat_name,{font:"32px Muli",fill:"#F3DDB7"});
+			cat_desc=game.add.text(400,550,icon.description,{font:"24px Muli",fill:"#F3E2EE"});
 			cat_text.alpha=0;
 			cat_desc.alpha=0;
 			icon.inputEnabled=true;
